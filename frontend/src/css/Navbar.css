@@ -1,0 +1,39 @@
+#dateInput {
+    width: 90px;
+    border: none;
+    color: white;
+    /* -webkit-appearance: none; */
+}
+
+#dateInput::before {
+    content: attr(data-placeholder);
+    width: 100%;
+}
+
+#dateInput::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    font-size: 40px;
+}
+
+#addBtn:hover {
+    scale: 1.1;
+    background-color: #041955;
+    transition: ease-out;
+}
+
+.userBox {
+    display: none;
+    transition-property: all; 
+    transition-duration: 0.5s;
+}
+
+.userBox:hover{
+    display: block;
+}
+
+.userIcon:hover + .userBox {
+    transition-property: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    display: block;
+}
