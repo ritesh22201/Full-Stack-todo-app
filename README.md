@@ -21,10 +21,6 @@ A full-stack todo app built using React.js, Redux.js, TypeScript, Node.js, Expre
 - [Database Schema](#database-schema)
 - [Configuration](#configuration)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [Testing](#testing)
-- [Troubleshooting](#troubleshooting)
-- [License](#license)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
