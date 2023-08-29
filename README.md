@@ -2,10 +2,6 @@
 
 # Full-Stack Todo App
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Code Coverage](https://img.shields.io/badge/coverage-90%25-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
-
 A full-stack todo app built using React.js, Redux.js, TypeScript, Node.js, Express.js, MongoDB, and Chakra UI.
 
 ## Table of Contents
