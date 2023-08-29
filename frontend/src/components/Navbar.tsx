@@ -61,8 +61,8 @@ const Navbar = () => {
                 </form>
                 <Flex position={'relative'} alignItems={'center'}>
                     {token?.token && <FaUserAlt cursor={'pointer'} className='userIcon' color='white' />}
-                    {token?.token && <Box className='userBox' borderRadius={'5px'} position={'absolute'} right={'87px'} top={'39px'} bg={'#041955'} p={'20px'}>
-                        <Text mb={'10px'} color={'white'} size={'md'}>{token?.name}</Text>
+                    {token?.token && <Box className='userBox' minW={'-webkit-max-content'} borderRadius={'5px'} position={'absolute'} right={'87px'} top={'39px'} bg={'#041955'} p={'20px'}>
+                        <Text mb={'10px'} w={'100%'} color={'white'} size={'md'}>{token?.name}</Text>
                         {token && <Text className='logout' cursor={'pointer'} size={'md'} onClick={handleLogout} color={'white'}>Logout</Text>}
                     </Box>}
                     <form onSubmit={handleDateSearch}>
