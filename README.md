@@ -64,6 +64,22 @@ Welcome to the Full-Stack Todo App! This app allows you to manage your tasks eff
 2. Start the frontend development server: `cd frontend && npm start`
 3. Open your browser and visit: `http://localhost:3000`
 
+## Screenshots
+
+### Signup Page 
+
+![Signup Page](./frontend/src/assets/signup.png)
+
+### Login Page
+
+![Login Page](./frontend/src/assets/login.png)
+
+### Todos Page
+
+![Todos Page](./frontend/src/assets/home.png)
+
+![Todos Page](./frontend/src/assets/home1.png)
+
 ## Backend
 
 The backend is built using Node.js and Express.js. It provides RESTful APIs for managing tasks and communicates with the MongoDB database.
@@ -91,12 +107,6 @@ Confuguration is set up in MongoDB, by setting up the environment variables in .
 ## Deployment
 
 For deployment, Render for the backend and Vercel for the frontend. Updated environment variables accordingly.
-
-## Screenshots
-
-### Signup page 
-
-![Signup Page](./frontend/src/assets/signup.png)
 
 ## Contact
 
