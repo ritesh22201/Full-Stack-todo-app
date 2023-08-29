@@ -21,6 +21,7 @@ A full-stack todo app built using React.js, Redux.js, TypeScript, Node.js, Expre
 - [Database Schema](#database-schema)
 - [Configuration](#configuration)
 - [Deployment](#deployment)
+- [Screenshots](#screenshots)
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
@@ -90,6 +91,12 @@ Confuguration is set up in MongoDB, by setting up the environment variables in .
 ## Deployment
 
 For deployment, Render for the backend and Vercel for the frontend. Updated environment variables accordingly.
+
+## Screenshots
+
+### Signup page 
+
+![Signup Page](./frontend/src/assets/signup.png)
 
 ## Contact
 
